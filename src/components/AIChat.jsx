@@ -128,7 +128,7 @@ const AIChat = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`chatButton ${chatOpen ? 'hide' : 'show'}`} onClick={()=> setChatOpen(true)}>+</div>
+                <div className={`chatButton ${chatOpen ? 'hide' : 'show'}`} onClick={()=> setChatOpen(true)}>💬</div>
                 </>
         );
 
